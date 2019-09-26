@@ -1,0 +1,66 @@
+Andrew ID: Juanyig
+
+MeshEdit Final
+
+(Local):
+1. EdgeFlip (checkpoint)
+
+2. EdgeCollapse (checkpoint)
+   This function will not handle collapse correctly on this edge case (listed on piazza): https://piazza.com/class/jqv79wkbxqz743?cid=277
+
+3. FaceBevel (checkpoint)
+
+4. EdgeSplit
+
+5. EraseEdge
+
+   This function crashes sometimes: 
+1). When you delete multiple edges near two faces, For example, Let’s say 6 face looks like this:
+   _____________
+  |      |      |
+  |      |      |
+  -—————————————-
+  |      |      |
+  |      |      |
+  -——————————————
+  |      |      |
+  |      |      |
+  -——————————————
+  If we delete the four horizontal edges in the middle, it looks like that:
+   _____________
+  |      |      |
+  |      |      |
+  |      v0     |
+  |      |      |
+  |      |      |
+  |      v1     | 
+  |      |      |
+  |      |      |
+  -——————————————
+  Where the vertical line still contains two vertices and is break into three parts by default. Now, if I erase the edge above v0, the entire vertical line in the middle will be 
+erased automatically as well. However, it crashes sometimes when doing this operation. If it crashes when you erase the edge above v0, then erasing the edge below v1 will work normally; if it crashes when you erase the edge below v1, then erasing the edge above v0 will work normally. I am having trouble with eliminating this bug
+  2). Another circumstance that will result in crash is when, let’s say we have a beveled face (the inner face is a rectangle, and the outer face is also a rectangle with four 
+Vertices connecting to the other one correspondingly):
+   ____________
+  |\          /|
+  | \ _______/ |
+  |  |_______| |
+  | /        \ |
+  |/          \|
+  ——————————————
+  If we delete the four diagonal edges (one end is outer rectangle’s vertex, the other end is inner rectangle’s vertex) one by one, it will crash until there is only 1 diagonal edge left because such edge’s halfedge and its twin share the same face and it cannot be handle properly in my special case code.
+
+
+6. EraseVertex
+
+7. BevelVertex
+   If the user only click on the vertex to perform bevel instead of dragging, the default positions for the newly inserted vertices will be placed on the center of each original edge, which is designed to be more convinient for people to use.
+
+(Global):
+1. Triangulation
+
+2. Linear Subdivision
+
+3. Catmull Clark Subdivision
+
+4. LoopSubdivision

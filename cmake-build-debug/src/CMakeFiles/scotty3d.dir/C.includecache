@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/echo/Desktop/Scotty3D Copy/src/getopt.c
+getopt.h
+/Users/echo/Desktop/Scotty3D Copy/src/getopt.h
+string.h
+-
+stdio.h
+-
+
+/Users/echo/Desktop/Scotty3D Copy/src/getopt.h
+

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Scotty3D"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMU462\;CMake Files\CMU462\deps\;CMake Files\CMU462\deps\glew\;CMake Files\CMU462\deps\glfw\;CMake Files\CMU462\deps\glfw\src\;CMake Files\CMU462\src\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew">
+				<Option output="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glew/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glew"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glew/Makefile&quot;  VERBOSE=1 glew"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew/fast">
+				<Option output="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glew/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glew"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glew/Makefile&quot;  VERBOSE=1 glew/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src"/>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glfw/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src"/>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glfw/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMU462">
+				<Option output="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/src/libCMU462.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/include"/>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glew/include"/>
+					<Add directory="/usr/local/include/freetype2"/>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/include/CMU462"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/src/Makefile&quot;  VERBOSE=1 CMU462"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMU462/fast">
+				<Option output="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/src/libCMU462.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/include"/>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glew/include"/>
+					<Add directory="/usr/local/include/freetype2"/>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/include/CMU462"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/src/Makefile&quot;  VERBOSE=1 CMU462/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/CMU462/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scotty3d">
+				<Option output="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/scotty3d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=".."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/include"/>
+					<Add directory="/usr/local/include/freetype2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 scotty3d"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scotty3d/fast">
+				<Option output="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/scotty3d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=".."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/echo/Desktop/Scotty3D Copy/CMU462/include"/>
+					<Add directory="/usr/local/include/freetype2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 scotty3d/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/echo/Desktop/Scotty3D\ Copy/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glew/src/glew.c">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glew/src/glewinfo.c">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glew/src/visualinfo.c">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/cocoa_init.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/cocoa_monitor.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/cocoa_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/cocoa_window.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/iokit_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/iokit_joystick.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/mach_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/nsgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/nsgl_context.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/posix_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/posix_tls.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/base64.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/color.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/complex.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/lodepng.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/matrix3x3.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/matrix4x4.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/osdfont.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/osdtext.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/quaternion.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/spectrum.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/tinyxml2.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/vector2D.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/vector3D.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/vector4D.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/viewer.cpp">
+			<Option target="CMU462"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/cmake-build-debug/CMU462/deps/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/application.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/application.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/bbox.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/bbox.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/bsdf.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/bsdf.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/bvh.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/bvh.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/camera.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/camera.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/camera_info.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/camera_info.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/collada.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/collada.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/light_info.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/light_info.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/material_info.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/material_info.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/polymesh_info.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/polymesh_info.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/sphere_info.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/collada/sphere_info.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/joint.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/joint.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/mesh.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/mesh.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/scene.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/scene.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/skeleton.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/skeleton.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/sphere.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/sphere.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/widgets.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/dynamic_scene/widgets.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/error_dialog.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/error_dialog.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/getopt.c">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/getopt.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/halfEdgeMesh.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/halfEdgeMesh.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/main.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/meshEdit.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/meshEdit.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/misc/sphere_drawing.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/misc/sphere_drawing.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/pathtracer.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/pathtracer.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/sampler.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/sampler.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/static_scene/environment_light.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/static_scene/environment_light.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/static_scene/light.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/static_scene/light.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/static_scene/object.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/static_scene/object.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/static_scene/sphere.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/static_scene/sphere.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/static_scene/triangle.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/static_scene/triangle.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/timeline.cpp">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/timeline.h">
+			<Option target="scotty3d"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CMU462\"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CMU462\deps\glew\"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CMU462\deps\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\CMU462\deps\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CMU462\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\CMU462\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\CMU462\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/deps/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\CMU462\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/CMU462/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CMU462\src\"/>
+		</Unit>
+		<Unit filename="/Users/echo/Desktop/Scotty3D Copy/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
